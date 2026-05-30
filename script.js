@@ -43,9 +43,9 @@ const player = {
   y: 250,
   width: 80,
   height: 80,
-  velocity: 0,
+  velocity: 10,
   gravity: 0.5,
-  jump: -9,
+  jump: -7,
 };
 
 const pipeWidth = 80;
@@ -287,19 +287,19 @@ function showMessage(text) {
 
 function checkMessages() {
   if (score === 10) {
-    showMessage("Masih ingat waktu pertama kali kita kenal?");
+    showMessage("semangat naaaaa!!");
   }
 
   if (score === 20) {
-    showMessage("Terima kasih untuk semua cerita.");
+    showMessage("Ana, ayoo maju teruss");
   }
 
   if (score === 30) {
-    showMessage("Semoga sukses di perjalanan berikutnya.");
+    showMessage("WOoooowww keren na!!");
   }
 
   if (score === 40) {
-    showMessage("Jangan lupakan teman-temanmu ya.");
+    showMessage("bentarr lagi sampe");
   }
 
   if (score === 50) {
@@ -363,17 +363,10 @@ function showFarewell() {
   endScreen.style.display = "flex";
 
   endScreen.innerHTML = `
-        <h1>Untuk Ana</h1>
+        <h1>Congratularion Ana</h1>
 
         <p>
-        Terima kasih untuk semua kenangan,
-        cerita, tawa, dan kebersamaan
-        selama ini.
-        <br><br>
-        Semoga sukses di perjalanan
-        berikutnya.
-        <br><br>
-        Jangan lupakan kami.
+        Makasih udah mau main game ini haha
         </p>
 
         <button onclick="location.reload()">
