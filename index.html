@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Last Journey</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="startScreen">
+      <div class="start-card">
+        <h1>The Last Journey</h1>
+
+        <img src="assets/ana.png" alt="Ana" class="friend-photo" />
+
+        <p class="subtitle">Sebuah perjalanan kecil untuk seseorang yang pernah menjadi bagian dari banyak cerita dan kenangan.</p>
+
+        <button id="startBtn">Mulai Perjalanan</button>
+      </div>
+    </div>
+
+    <canvas id="gameCanvas"></canvas>
+
+    <div id="messageBox"></div>
+
+    <div id="endScreen"></div>
+
+    <div id="gameOverPopup">
+      <div class="popup-content">
+        <h2>Perjalanan Berakhir</h2>
+
+        <p id="finalScore">Score: 0</p>
+
+        <p class="popup-message">Coba lagi dan lihat sejauh mana perjalanan ini bisa berlanjut.</p>
+
+        <div class="popup-buttons">
+          <button onclick="restartGame()">Main Lagi</button>
+
+          <button onclick="closePopup()">Kembali</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
