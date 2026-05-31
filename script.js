@@ -41,11 +41,11 @@ let score = 0;
 const player = {
   x: 100,
   y: 250,
-  width: 80,
-  height: 80,
+  width: 70,
+  height: 70,
   velocity: 10,
-  gravity: 0.5,
-  jump: -7,
+  gravity: 0.3,
+  jump: -5,
 };
 
 const pipeWidth = 80;
