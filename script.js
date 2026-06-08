@@ -33,7 +33,7 @@ const hitSound = new Audio("assets/suara-nabrak.mp3");
 const gameOverSound = new Audio("assets/suara-game-over.mp3");
 
 bgMusic.loop = true;
-bgMusic.volume = 0.4;
+bgMusic.volume = 0.5;
 
 let gameStarted = false;
 let score = 0;
